@@ -1,0 +1,66 @@
+/* Experience.css */
+.experience-container {
+    padding: 80px 0;
+  }
+  
+  .experience-header {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .experience-card {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .experience-card.active {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  .experience-card.inactive {
+    color: #aaa;
+  }
+  
+  .experience-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .experience-company {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .experience-details {
+    margin-top: 20px;
+    list-style: none;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: rgba(0, 0, 0, 0.7);;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .experience-detail {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  a {
+    color: hotpink;
+  }
+
+  .experience-details-container img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
